@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'),
+      '@': path.resolve(__dirname, 'src'), // ✅ '@' points to 'client/src'
+      '@assets': path.resolve(__dirname, 'attached_assets'), // ✅ optional
     },
   },
   build: {

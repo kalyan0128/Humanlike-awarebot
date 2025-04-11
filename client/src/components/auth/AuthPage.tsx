@@ -1,7 +1,7 @@
 import { useState } from "react";
 import LoginForm from "./LoginForm";
 import SignupForm from "./SignupForm";
-import gannonLogo from "@assets/gu logo.jpg";
+import gannonLogo from "@assets/gu-logo.jpg";
 
 interface AuthPageProps {
   initialView?: "login" | "signup";

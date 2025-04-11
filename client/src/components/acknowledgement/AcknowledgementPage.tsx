@@ -3,7 +3,7 @@ import { setAcknowledgedStatus } from "@/lib/auth"; // Direct import from lib/au
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { useLocation } from "wouter";
-import gannonLogo from "@assets/gu logo.jpg";
+import gannonLogo from "@assets/gu-logo.jpg";
 
 const AcknowledgementPage = () => {
   const [acknowledged, setAcknowledged] = useState(false);

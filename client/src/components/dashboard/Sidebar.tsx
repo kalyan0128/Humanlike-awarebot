@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { logoutUser, getCurrentUser } from "@/lib/auth";
 import { toast } from "@/hooks/use-toast";
 import { useLocation } from "wouter";
-import gannonLogo from "@assets/gu logo.jpg";
+import gannonLogo from "@assets/gu-logo.jpg";
 import { User } from "@shared/schema";
 
 interface SidebarProps {
